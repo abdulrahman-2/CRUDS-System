@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Tahoma Arial;
+}
+body {
+  background-color: #222;
+  color: #fff;
+}
+input {
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  transition: 0.5s;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  font-size: 19px;
+  background-color: #111;
+  color: white;
+}
+input:focus {
+  outline: none;
+  transform: scale(1.1);
+}
+.cruds-cuntainer {
+  width: 80%;
+  margin: 20px auto;
+}
+.head {
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.head h1 {
+  font-size: 50px;
+}
+.head p {
+  font-size: 25px;
+}
+.price-inputs {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.price-inputs input {
+  width: 100%;
+}
+.price-inputs .total {
+  text-transform: uppercase;
+  text-align: center;
+  display: inline-block;
+  background-color: #a00d02;
+  margin-bottom: 10px;
+  height: 46px;
+  line-height: 46px;
+  border-radius: 6px;
+  padding: 0 10px;
+  font-weight: bold;
+}
+.create,
+.search button,
+.delete-all button {
+  border: none;
+  border-radius: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  font-size: 19px;
+  font-weight: bold;
+  color: white;
+  background-color: #390053;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.create,
+.delete-all button {
+  width: 100%;
+}
+.search {
+  margin-bottom: 10px;
+}
+.search button {
+  width: 45%;
+}
+.create:hover,
+.update-btn:hover,
+.search button:hover,
+.delete-all button:hover {
+  background-color: #51025f;
+  letter-spacing: 1.5px;
+  transform: scale(1.1);
+}
+.search #by-category {
+  float: right;
+}
+.output-data table {
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+  margin: 10px 0;
+}
+.output-data table th {
+  text-transform: uppercase;
+  font-size: 22px;
+}
+th,
+td {
+  padding: 5px;
+}
+.output-data table td button {
+  border: none;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  padding: 5px 25px;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  background-color: #390053;
+  transition: 0.4s;
+  cursor: pointer;
+}
